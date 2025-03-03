@@ -1,0 +1,112 @@
+.wrapper {
+    background:  rgb(244, 199, 186);
+    padding: 3rem;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 1rem;
+    font-family:"Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.5rem;
+    width: 250px;
+    background-color: #ffde59;
+    text-align: center;
+}
+
+nav a {
+    text-decoration: underline;
+    padding: 10px;
+    color:rgb(233, 76, 19);
+}
+
+a {
+    cursor: pointer;
+    color: rgb(233, 76, 19);
+    text-decoration: underline;
+}
+
+a:hover {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+h1 { 
+    color: rgb(243, 104, 53);
+    font-family: "Sigmar", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h1 span {
+    font-weight: 900;
+    font-size: 6rem;
+    display: block;
+    color: rgb(233, 76, 19);
+    line-height: .85;
+}
+    
+h2 {
+    color: rgb(233, 76, 19);
+    font-family: "Poppins", serif;
+    font-weight: 700;
+    font-size: 2rem;
+    font-style: normal;
+}
+
+p {
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+h3 {
+    font-family: "Poppins", serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 1.5rem;
+}
+
+ol {
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+ul {
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.myclass {
+    color:rgb(238, 130, 91);
+}
+
+#bitmap {
+    width: 300px;
+    background-color: #ffde59;
+    border: 36px solid rgb(233, 76, 19);
+    margin: auto;
+    padding: 10px;
+  
+    border-image: url("border.png") 27 / 36px 28px 18px 8px / 18px 14px 9px 4px
+      round;
+  }
+
+  figure{
+    display:inline-block;
+    width: 25%;
+    border:solid 1px black
+  }
+
+  figure img{
+    width: 100%;
+    height:100%;
+  }
+  
+  figure caption{
+    font-family:"Poppins", serif;
+    text-align: center;
+  }
